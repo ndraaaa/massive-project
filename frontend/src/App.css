@@ -1,0 +1,7 @@
+.active {
+  color: var(--Primary, #618264);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

@@ -1,0 +1,28 @@
+
+:root {
+  --primary-color: #618264;
+  --secondary-color: #79ac78;
+  --black-color: #1b1b1b;
+  --bg-color: #f0f0f0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.wrapper {
+  padding: 0 140px;
+  margin: 0 auto;
+}
+
+.active-link {
+  color: red;
+  font-weight: bold;
+}

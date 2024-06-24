@@ -1,0 +1,188 @@
+.Artikel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+
+.wrapperArtikel {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-back {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.back-arrow {
+  margin-right: 8px;
+}
+
+.contentt {
+  display: flex;
+}
+
+.isi {
+  flex: 2;
+}
+
+.isi img {
+  width: 100%;
+  height: auto;
+}
+
+.title-Artikel {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #333;
+}
+
+.keterangan {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #656565;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+.keterangan strong {
+  font-weight: 700;
+  color: #333;
+}
+
+.keterangan ol {
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+.keterangan ol li {
+  margin-bottom: 10px;
+}
+
+.sidebar {
+  flex: 1;
+  margin-left: 100px;
+}
+
+.sidebar h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: var(--Primary, #618264);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.featured-article {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.featured-image {
+  object-fit: cover;
+  margin-right: 10px;
+  width: 182px;
+  height: 115px;
+  flex-shrink: 0;
+}
+
+.featured-text h4 {
+  font-size: 16px;
+  margin: 0 0 5px;
+  color: var(--Neutral-5, #1b1b1b);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.featured-text p {
+  margin: 0;
+  color: var(--Neutral-3, #8a8a8a);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title-Artikel {
+  color: var(--Neutral-5, #1b1b1b);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.role {
+  color: var(--Neutral-3, #8a8a8a);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.clock .clock-icon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+
+.clock {
+  color: var(--Neutral-2, #c0c0c0);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+
+.card-link3 {
+  color: var(--Secondary-1, #79ac78);
+  font-family: Poppins;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.card-link3 .arrow3 {
+  width: 11px;
+  height: 10px;
+  flex-shrink: 0;
+  margin-left: 5px;
+}
+
+.sourcegambar {
+  color: var(--Neutral-4, #656565);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 2px;
+}

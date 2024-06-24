@@ -1,0 +1,127 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.contact-container {
+    padding: 20px;
+    margin-top: 100px;
+    background-color: #f7f7f7;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-form {
+    max-width: 600px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.contact-form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-button-group {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.contact-btn-success {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+}
+
+.contact-text-center {
+    text-align: center;
+}
+
+.contact-text-center a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-text-center a:hover {
+    text-decoration: underline;
+}
+
+.contact-image {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.contact-image-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #888;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        padding: 10px;
+        margin-top: 50px;
+    }
+
+    .contact-form {
+        padding: 15px;
+    }
+
+    .contact-form-control {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .contact-button-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .contact-btn {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contact-container {
+        padding: 5px;
+        margin-top: 30px;
+    }
+
+    .contact-form {
+        padding: 10px;
+    }
+
+    .contact-form-control {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .contact-btn {
+        padding: 8px 15px;
+    }
+}
