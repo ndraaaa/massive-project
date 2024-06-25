@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .Beranda {
   min-height: 150vh;
   background-color: #f0f0f0;

@@ -201,7 +201,8 @@ body {
     flex-direction: column;
   }
 
-  .donation-form, .donation-image {
+  .donation-form,
+  .donation-image {
     max-width: 100%;
     margin: 10px 0;
   }
@@ -248,4 +249,24 @@ body {
     width: 5px;
     height: 5px;
   }
+}
+
+.donation-button {
+  display: block;
+  width: 100%;
+  max-width: 400px; /* Sesuaikan dengan kebutuhan Anda */
+  margin: 0 auto; /* Untuk menempatkan tombol di tengah */
+  padding: 10px 0;
+  text-align: center;
+  background-color: #28a745; /* Sesuaikan dengan warna yang Anda inginkan */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.donation-button:hover {
+  background-color: #218838; /* Warna saat dihover */
 }

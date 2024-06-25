@@ -20,13 +20,13 @@ const Beranda = () => {
           <h1 className="title-Beranda">
             KATAKAN TIDAK <br /> PADA PLASTIK
           </h1>
-          <a href="#" className="tombol-mulai">
+          <a href="#page-beranda" className="tombol-mulai">
             Mulai Sekarang
           </a>
         </div>
       </div>
 
-      <div className="page-beranda">
+      <div className="page-beranda" id="page-beranda">
         <div className="page-isi2">
           <h3 className="title2">
             Sampah plastik masih menjadi <br /> salah satu permasalahan <br />
@@ -82,15 +82,14 @@ const Beranda = () => {
         <div className="page-isi4">
           <h3 className="title4">Artikel Terbaru</h3>
           <Link className="card-link" to="#">
-            Lihat lainnya{" "}
-            <img className="arrow" src={arrow} alt="" srcset="" />
+            Lihat lainnya <img className="arrow" src={arrow} alt="" srcSet="" />
           </Link>
         </div>
 
         <div className="card2">
           <div className="card-body2">
             <div className="card-isi2">
-              <img src={imgArtikel} alt="" srcset="" />
+              <img src={imgArtikel} alt="" srcSet="" />
               <p className="waktu">7 Mei 2024, 11.00 WIB</p>
               <p className="card-title2">
                 DIY Hiasan dinding pot bunga dari botol plastik bekas
@@ -103,11 +102,11 @@ const Beranda = () => {
               </p>
               <Link className="card-link2" to="/artikel-detail">
                 Baca selengkapnya{" "}
-                <img className="arrow2" src={arrow} alt="" srcset="" />
+                <img className="arrow2" src={arrow} alt="" srcSet="" />
               </Link>
             </div>
             <div className="card-isi2">
-              <img src={imgArtikel} alt="" srcset="" />
+              <img src={imgArtikel} alt="" srcSet="" />
               <p className="waktu">7 Mei 2024, 11.00 WIB</p>
               <p className="card-title2">
                 DIY Hiasan dinding pot bunga dari botol plastik bekas
@@ -120,11 +119,11 @@ const Beranda = () => {
               </p>
               <Link className="card-link2" to="/artikel-detail">
                 Baca selengkapnya{" "}
-                <img className="arrow2" src={arrow} alt="" srcset="" />
+                <img className="arrow2" src={arrow} alt="" srcSet="" />
               </Link>
             </div>
             <div className="card-isi2">
-              <img src={imgArtikel} alt="" srcset="" />
+              <img src={imgArtikel} alt="" srcSet="" />
               <p className="waktu">7 Mei 2024, 11.00 WIB</p>
               <p className="card-title2">
                 DIY Hiasan dinding pot bunga dari botol plastik bekas
@@ -137,7 +136,7 @@ const Beranda = () => {
               </p>
               <Link className="card-link2" to="/artikel-detail">
                 Baca selengkapnya{" "}
-                <img className="arrow2" src={arrow} alt="" srcset="" />
+                <img className="arrow2" src={arrow} alt="" srcSet="" />
               </Link>
             </div>
           </div>
@@ -152,7 +151,7 @@ const Beranda = () => {
           <h1 className="title-Beranda">
             Ingin ikut berkontribusi <br /> menyelamatkan <br /> bumi?
           </h1>
-          <a href="#" className="tombol-mulai">
+          <a href="/donasi" className="tombol-mulai">
             Donasi Sekarang
           </a>
         </div>

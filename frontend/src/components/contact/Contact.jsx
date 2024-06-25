@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import "./Contact.css";
+import qrCodeImage from "../../assets/qr_code.png";
 
 const Contact = () => {
+  const [showOverlay, setShowOverlay] = useState(false);
+
+  const handleDonasiClick = (e) => {
+    e.preventDefault();
+    setShowOverlay(true);
+  };
+
+  const handleBatalClick = () => {
+    setShowOverlay(false);
+  };
+
   return (
     <div>
       <Navbar />
@@ -46,8 +58,8 @@ const Contact = () => {
                 <label htmlFor="formPaymentMethod">Metode Pembayaran</label>
                 <select className="contact-form-control" id="formPaymentMethod">
                   <option>Pilih metode pembayaran</option>
-                  <option>Metode 1</option>
-                  <option>Metode 2</option>
+                  <option>Credit Card</option>
+                  <option>E-Wallet</option>
                 </select>
               </div>
 
@@ -55,17 +67,32 @@ const Contact = () => {
                 <button
                   type="submit"
                   className="contact-btn contact-btn-success"
+                  onClick={handleDonasiClick}
                 >
                   Donasi
                 </button>
               </div>
             </form>
             <div className="contact-text-center mt-3">
-              <a href="/Donasi">Ganti jumlah donasi</a>
+              <a href="/donasi">Ganti jumlah donasi</a>
             </div>
           </div>
         </div>
       </div>
+
+      {showOverlay && (
+        <div className="overlay">
+          <div className="overlay-content">
+            <img src={qrCodeImage} alt="QR Code" className="qr-code" />
+            <button
+              className="contact-btn contact-btn-cancel"
+              onClick={handleBatalClick}
+            >
+              Batal
+            </button>
+          </div>
+        </div>
+      )}
       <Footer />
     </div>
   );

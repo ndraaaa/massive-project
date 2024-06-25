@@ -24,35 +24,35 @@ const Galeri = () => {
           <p className="card-name"> Kegiatan Kami</p>
           <div className="card-body">
             <div className="card-isi">
-              <img src={image4} alt="" srcset="" />
+              <img src={image4} alt="" srcSet="" />
               <p className="card-title">Memilih Sampah Plastik</p>
               <p className="card-place">
                 GreenPlace{" "}
                 <Link className="card-link" to="/galeri-detail">
                   Lihat Selengkapnya{" "}
-                  <img className="arrow" src={arrow} alt="" srcset="" />
+                  <img className="arrow" src={arrow} alt="" srcSet="" />
                 </Link>
               </p>
             </div>
             <div className="card-isi">
-              <img src={image5} alt="" srcset="" />
+              <img src={image5} alt="" srcSet="" />
               <p className="card-title">Membersihkan Pantai Kenj...</p>
               <p className="card-place">
                 EcoSweep{" "}
                 <Link className="card-link" to="/galeri-detail">
                   Lihat Selengkapnya{" "}
-                  <img className="arrow" src={arrow} alt="" srcset="" />
+                  <img className="arrow" src={arrow} alt="" srcSet="" />
                 </Link>
               </p>
             </div>
             <div className="card-isi">
-              <img src={image6} alt="" srcset="" />
+              <img src={image6} alt="" srcSet="" />
               <p className="card-title">Mendaur ulang sampah</p>
               <p className="card-place">
                 EarthQ{" "}
                 <Link className="card-link" to="/galeri-detail">
                   Lihat Selengkapnya{" "}
-                  <img className="arrow" src={arrow} alt="" srcset="" />
+                  <img className="arrow" src={arrow} alt="" srcSet="" />
                 </Link>
               </p>
             </div>
@@ -62,35 +62,35 @@ const Galeri = () => {
           <p className="card-name"> Karya Kami</p>
           <div className="card-body">
             <div className="card-isi">
-              <img src={image7} alt="" srcset="" />
+              <img src={image7} alt="" srcSet="" />
               <p className="card-title">Hiasan dinding daur ulang</p>
               <p className="card-place">
                 EarthQ{" "}
                 <Link className="card-link" to="/galeri-detail">
                   Lihat Selengkapnya{" "}
-                  <img className="arrow" src={arrow} alt="" srcset="" />
+                  <img className="arrow" src={arrow} alt="" srcSet="" />
                 </Link>
               </p>
             </div>
             <div className="card-isi">
-              <img src={image8} alt="" srcset="" />
+              <img src={image8} alt="" srcSet="" />
               <p className="card-title">Mainan mobil dari plastik</p>
               <p className="card-place">
                 EarthQ{" "}
                 <Link className="card-link" to="/galeri-detail">
                   Lihat Selengkapnya{" "}
-                  <img className="arrow" src={arrow} alt="" srcset="" />
+                  <img className="arrow" src={arrow} alt="" srcSet="" />
                 </Link>
               </p>
             </div>
             <div className="card-isi">
-              <img src={image9} alt="" srcset="" />
+              <img src={image9} alt="" srcSet="" />
               <p className="card-title">Mainan mobil dari plastik</p>
               <p className="card-place">
                 EarthQ{" "}
                 <Link className="card-link" to="/galeri-detail">
                   Lihat Selengkapnya{" "}
-                  <img className="arrow" src={arrow} alt="" srcset="" />
+                  <img className="arrow" src={arrow} alt="" srcSet="" />
                 </Link>
               </p>
             </div>

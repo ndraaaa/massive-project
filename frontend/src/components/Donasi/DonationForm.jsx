@@ -1,10 +1,9 @@
-import React from 'react';
-import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import React from "react";
 import { Link } from "react-router-dom";
+import donasiImage from "../../assets/donasi.jpeg";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import "./DonasiForm.css";
-import donasiImage from "../../assets/donasi.jpeg";
 
 const DonationForm = () => {
   return (
@@ -57,10 +56,7 @@ const DonationForm = () => {
               </div>
 
               <div className="button-group">
-                <button type="button" className="btn btn-secondary">
-                  Batal
-                </button>
-                <Link to="/contact" className="btn btn-success no-underline">
+                <Link to="/contact" className="donation-button">
                   Donasi
                 </Link>
               </div>

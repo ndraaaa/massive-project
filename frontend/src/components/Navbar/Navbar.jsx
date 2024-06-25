@@ -27,29 +27,32 @@ const Navbar = () => {
           >
             Beranda
           </NavLink>
-        </li>
-        <li>
-          <a href="#">Komunitas</a>
+          </li>
+          <li>
+          <NavLink
+            to="/komunitas"
+            className={({ isActive }) => (isActive ? "active" : "")}
+          >
+            Komunitas
+          </NavLink>
         </li>
         <li>
           <NavLink
-            to="/Galeri"
+            to="/galeri"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             Galeri
           </NavLink>
         </li>
         <li>
-        <NavLink
-            to="/Donasi"
+          <NavLink
+            to="/donasi"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             Donasi
           </NavLink>
         </li>
-        <li>
-          
-        </li>
+        <li></li>
       </ul>
     </nav>
   );
